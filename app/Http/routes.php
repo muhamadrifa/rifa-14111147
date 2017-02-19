@@ -12,5 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+
+Route::get('/edit', function () {
+    return view('edit');
+});
+
+
+Route::get('/tambah', function () {
+    return view('tambah');
 });
